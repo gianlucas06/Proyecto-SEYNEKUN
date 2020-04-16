@@ -1,0 +1,42 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <h2>Registro de panelas</h2>
+            <form >
+                <div class="form-group">
+                    <label>Fecha de ingreso</label>
+                    <input type="date" name="FechaIngreso" [(ngModel)]="panela.FechaIngreso" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label>Numero de lote</label>
+                    <input type="text" name="NumeroLote" [(ngModel)]= "panela.NumeroLote" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label>Numero de lote Agricola</label>
+                    <input type="text" name="NumeroLoteAgricola" [(ngModel)]= "panela.NumeroLoteAgricola" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label>Etapas</label>
+                    <select name="Etapas" [(ngModel)]= "panela.Etapas" class="form-control" > 
+                        <option>Filtrado</option>
+                        <option>Evaporacion</option>
+                        <option>Punteo</option>
+                        <option>Moldeo</option>                       
+                     </select>
+                </div>
+                <div class="form-group">
+                    <label>Cantidad obtenida</label>
+                    <input type="text" name="Cantidad" [(ngModel)]= "panela.Cantidad" class="form-control"  />
+                </div>
+                <div class="form-group">
+                    <label>Responsable</label>
+                    <input type="text" name="Responsable" [(ngModel)]= "panela.Responsable" class="form-control" />
+                </div>
+                <div class="text-center">
+                    <button class="btn btn-primary mr-1" (click)="add()">Registrar</button>
+                    <button class="btn btn-secondary" type="reset">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

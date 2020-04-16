@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZDoM60s/X4A0phgyB0YayhZptWQJpJOIS1MCqSXU3+f8ELEAgYj3Jp6tw46OyuJ4abPEpaOHnj3Zz8jM9ZkyKQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gian Lucas\\Desktop\\PROYECTO SEYNEKUN\\Entity\\Entity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gian Lucas\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Gian Lucas\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
